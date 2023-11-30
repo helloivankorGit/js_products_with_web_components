@@ -14,4 +14,4 @@ npm init
 npm start
 ```
 
-Open [http://127.0.0.1:8080](http://127.0.0.1:8080) with your browser to see the result.
+Open [http://127.0.0.1:8080](http://127.0.0.1:8080) with your browser to see the result. The host can be different on your local environment so navigate the terminal help messages.
