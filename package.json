@@ -1,6 +1,9 @@
 {
     "scripts": {
-      "start": "concurrently \"http-server\" \"npx sass --watch --source-map scss/styles.scss:css/styles.css\""
+        "start": "concurrently \"http-server\" \"npx sass --watch --source-map scss/styles.scss:css/styles.css\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2",
+        "http-server": "^14.1.1"
     }
-  }
-  
+}
