@@ -3,7 +3,7 @@
 
 ## Project preview
 
-
+https://helloivankorgit.github.io/js_products_with_web_components/
 
 ## Start project on local environment
 
