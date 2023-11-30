@@ -1,3 +1,12 @@
+## Task requirements
+1. Create a page with shopping items(3 items max per row), the default array of items you can find in data.js;
+2. Each item should display image of item, brand, name of item and button 'Read more';
+3. By clicking on button, the right navigation modal should appiar with two dropdown accordions: first one with information about item and second with information about brand;
+
+Keywords:
+- use HTML, Sass and JS;
+- use Web Components(e.g. <awesome-accordion>, <custom-modal>), control default state via classes or data-attributes;
+- animate states of custom components: Expand/collapse accordion, open/close modal. You decide which layer controls the transitions;
 
 ![Screenshot from 2023-11-30 12-10-59](https://github.com/helloivankorGit/js_products_with_web_components/assets/72932438/2ae23a8f-f387-4175-addc-19e0f96ae62b)
 
