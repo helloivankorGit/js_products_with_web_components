@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "start": "concurrently \"http-server\" \"npx sass --watch --source-map scss/styles.scss:css/styles.css\""
+    }
+  }
+  

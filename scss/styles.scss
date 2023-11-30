@@ -1,0 +1,14 @@
+@import './_variables';
+@import './_products';
+@import './_modal';
+@import './_accordion';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    max-width: 100%;
+}

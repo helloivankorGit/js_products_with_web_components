@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.accordion {
+    margin-bottom: 20px;
+    border-bottom: 1px solid $color__dd;
+
+    &__title {
+        font-size: 20px;
+        font-weight: $font-weight__semibold;
+        position: relative;
+        cursor: pointer;
+    }
+
+    &__content {
+        padding-top: 20px;
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows $transition__default ease-out;
+
+        .is-open & {
+            grid-template-rows: 1fr;
+        }
+
+        .inner {
+            overflow: hidden;
+        }
+    }
+
+    &.is-open .svg-icon {
+        scale: -1;
+    }
+
+    .svg-icon {
+        position: absolute;
+        right: 0;
+        top: 5px;
+        transition: scale $transition__default;
+        pointer-events: none;
+    }
+}
