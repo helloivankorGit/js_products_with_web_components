@@ -1,7 +1,7 @@
 ## Task requirements
-1. Create a page with shopping items(3 items max per row), the default array of items you can find in data.js;
+1. Create a page with shopping items (3 items max per row), the default array of items you can find in data.js;
 2. Each item should display image of item, brand, name of item and button 'Read more';
-3. By clicking on button, the right navigation modal should appiar with two dropdown accordions: first one with information about item and second with information about brand;
+3. By clicking on button, the right navigation modal should appear with two dropdown accordions: first one with information about item and second with information about brand;
 
 Keywords:
 - use HTML, Sass and JS;
