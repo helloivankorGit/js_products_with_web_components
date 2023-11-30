@@ -100,17 +100,15 @@
 }
 
 .accordion {
-  margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
 .accordion__title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   position: relative;
   cursor: pointer;
 }
 .accordion__content {
-  padding-top: 20px;
   display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
@@ -121,13 +119,16 @@
 .accordion__content .inner {
   overflow: hidden;
 }
+.accordion__trigger {
+  padding: 15px 0;
+}
 .accordion.is-open .svg-icon {
   scale: -1;
 }
 .accordion .svg-icon {
   position: absolute;
   right: 0;
-  top: 5px;
+  top: 19px;
   transition: scale 0.3s;
   pointer-events: none;
 }
